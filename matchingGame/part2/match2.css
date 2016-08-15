@@ -1,0 +1,57 @@
+
+#centerline{
+    height: 100%;
+    width: 5px;
+    float: left;
+    margin-left: 8px;
+    border-left: #000 solid 4px;
+}
+
+#game{
+    margin:8% 10% 0 10%;
+    background-color: white;
+    height: 435px;
+    width: 75%;
+    padding: 0;
+    z-index: 66;
+
+}
+
+#header{
+    width: 100%;
+    height: 60px;
+
+
+}
+
+h1, p{
+    text-align: center;
+    margin: 3px;
+}
+
+.style-one {
+    border: 0;
+    height: 2px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+body{
+    background: url("pics2/blur.jpg");
+}
+
+#leftScreen, #rightScreen{
+    width:49%;
+    height: 100%;
+}
+
+#leftScreen{
+    /*background-color: blue;*/
+    float: left;
+}
+
+#rightScreen{
+    /*background-color: red;*/
+    float:right;
+    margin: 0;
+}

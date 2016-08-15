@@ -1,16 +1,16 @@
-#line{
-    width: 45%;
-    height: 1px;
-    background-color: black;
-    transform: rotate(90deg);
-    position: fixed;
-    z-index: 99;
+
+#centerline{
+    height: 100%;
+    width: 5px;
+    float: left;
+    margin-left: 8px;
+    border-left: #000 solid 4px;
 }
 
 #game{
     margin:3% 10% 0 10%;
     background-color: white;
-    height: 415px;
+    height: 435px;
     width: 75%;
     padding: 0;
     z-index: 66;
@@ -46,12 +46,12 @@ body{
 }
 
 #leftScreen{
-    background-color: blue;
+    /*background-color: blue;*/
     float: left;
 }
 
 #rightScreen{
-    background-color: red;
+    /*background-color: red;*/
     float:right;
     margin: 0;
 }
