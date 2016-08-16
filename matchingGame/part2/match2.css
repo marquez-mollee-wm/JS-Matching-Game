@@ -10,7 +10,7 @@
 #game{
     margin:8% 10% 0 10%;
     background-color: white;
-    height: 435px;
+    height: 500px;
     width: 75%;
     padding: 0;
     z-index: 66;
@@ -40,18 +40,25 @@ body{
     background: url("pics2/blur.jpg");
 }
 
-#leftScreen, #rightScreen{
-    width:49%;
-    height: 100%;
-}
+
 
 #leftScreen{
     /*background-color: blue;*/
     float: left;
+    width: 500px;
+    height: 500px;
 }
 
 #rightScreen{
     /*background-color: red;*/
     float:right;
     margin: 0;
+    width: 500px;
+    height: 500px;
+}
+
+img{
+    position: absolute;
+    height: 100px;
+    width: 100px;
 }
